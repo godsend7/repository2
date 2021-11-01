@@ -15,7 +15,7 @@
 
 	//=====기존Code 주석 처리 후  jQuery 변경 ======//
 	// 검색 / page 두가지 경우 모두 Form 전송을 위해 JavaScrpt 이용  
-	function fncGetProductList(currentPage) {
+	function fncGetUserList(currentPage) {
 		//document.getElementById("currentPage").value = currentPage;
 		$("#currentPage").val(currentPage)
 	   	//document.detailForm.submit();
